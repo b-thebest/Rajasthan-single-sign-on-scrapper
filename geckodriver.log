@@ -1214,3 +1214,361 @@ JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: 
 JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
 console.error: (new Error("Connection closed before committing the transaction.", "resource://gre/modules/Sqlite.jsm", 683))
 1572960057466	Marionette	INFO	Stopped listening on port 45767
+1573041157574	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMz6uq3"
+1573041158093	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1573041158093	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1573041158093	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1573041158093	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1573041160452	Marionette	INFO	Listening on port 41013
+1573041160487	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+
+(/usr/lib/firefox/firefox:3036): dconf-WARNING **: 17:22:42.976: Unable to open /var/lib/menu-xdg/dconf/profile/user: Permission denied
+JavaScript warning: https://sso.rajasthan.gov.in/signin, line 1: unreachable code after return statement
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+1573041260029	Marionette	INFO	Stopped listening on port 41013
+1573041333737	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebXGix9"
+1573041334233	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1573041334234	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1573041334234	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1573041334234	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1573041336548	Marionette	INFO	Listening on port 32983
+1573041336647	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+
+(/usr/lib/firefox/firefox:3530): dconf-WARNING **: 17:25:39.962: Unable to open /var/lib/menu-xdg/dconf/profile/user: Permission denied
+JavaScript warning: https://sso.rajasthan.gov.in/signin, line 1: unreachable code after return statement
+JavaScript warning: https://sso.rajasthan.gov.in/signin, line 1: unreachable code after return statement
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 3862, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-dMxUp2/firefox-70.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1573041447221	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilepA0ePk"
+1573041447777	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1573041447778	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1573041447778	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1573041447778	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1573041449823	Marionette	INFO	Listening on port 37299
+1573041449874	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+
+(/usr/lib/firefox/firefox:4011): dconf-WARNING **: 17:27:32.778: Unable to open /var/lib/menu-xdg/dconf/profile/user: Permission denied
+JavaScript warning: https://sso.rajasthan.gov.in/signin, line 1: unreachable code after return statement
+JavaScript warning: https://sso.rajasthan.gov.in/signin, line 1: unreachable code after return statement
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+1573041558273	Marionette	INFO	Stopped listening on port 37299
+1573041564275	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejFPxIw"
+1573041564765	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1573041564765	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1573041564766	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1573041564766	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1573041566935	Marionette	INFO	Listening on port 41557
+1573041566985	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+
+(/usr/lib/firefox/firefox:4499): dconf-WARNING **: 17:29:29.196: Unable to open /var/lib/menu-xdg/dconf/profile/user: Permission denied
+JavaScript warning: https://sso.rajasthan.gov.in/signin, line 1: unreachable code after return statement
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+1573041622392	Marionette	INFO	Stopped listening on port 41557
+1573041731401	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefe5LrF"
+1573041731911	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1573041731912	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1573041731912	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1573041731912	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1573041733956	Marionette	INFO	Listening on port 37445
+1573041734011	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+
+(/usr/lib/firefox/firefox:4992): dconf-WARNING **: 17:32:16.863: Unable to open /var/lib/menu-xdg/dconf/profile/user: Permission denied
+JavaScript warning: https://sso.rajasthan.gov.in/signin, line 1: unreachable code after return statement
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+1573041834091	Marionette	INFO	Stopped listening on port 37445
+1573041942558	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1MH3TN"
+1573041943081	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1573041943082	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1573041943082	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1573041943082	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1573041945232	Marionette	INFO	Listening on port 45623
+1573041945269	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+
+(/usr/lib/firefox/firefox:5498): dconf-WARNING **: 17:35:47.871: Unable to open /var/lib/menu-xdg/dconf/profile/user: Permission denied
+JavaScript warning: https://sso.rajasthan.gov.in/signin, line 1: unreachable code after return statement
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+JavaScript warning: https://sso.rajasthan.gov.in/signin, line 1: unreachable code after return statement
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+1573042007523	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLh3Hvv"
+1573042008260	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1573042008261	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1573042008261	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1573042008261	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1573042010449	Marionette	INFO	Listening on port 38781
+1573042010534	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+
+(/usr/lib/firefox/firefox:5970): dconf-WARNING **: 17:36:52.824: Unable to open /var/lib/menu-xdg/dconf/profile/user: Permission denied
+JavaScript warning: https://sso.rajasthan.gov.in/signin, line 1: unreachable code after return statement
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+JavaScript warning: https://sso.rajasthan.gov.in/signin, line 1: unreachable code after return statement
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+1573042085786	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilenh83pI"
+1573042086316	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1573042086316	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1573042086316	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1573042086316	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1573042088522	Marionette	INFO	Listening on port 43849
+1573042088596	Marionette	WARN	TLS certificate errors will be ignored for this session
+1573042089318	Marionette	INFO	Stopped listening on port 38781
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+
+(/usr/lib/firefox/firefox:6453): dconf-WARNING **: 17:38:10.866: Unable to open /var/lib/menu-xdg/dconf/profile/user: Permission denied
+1573042091194	Marionette	INFO	Stopped listening on port 45623
+JavaScript warning: https://sso.rajasthan.gov.in/signin, line 1: unreachable code after return statement
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+JavaScript warning: https://sso.rajasthan.gov.in/signin, line 1: unreachable code after return statement
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+1573042185061	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiledMPeI7"
+1573042185587	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1573042185587	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1573042185587	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1573042185587	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1573042187747	Marionette	INFO	Listening on port 45709
+1573042187769	Marionette	WARN	TLS certificate errors will be ignored for this session
+1573042189072	Marionette	INFO	Stopped listening on port 43849
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+
+(/usr/lib/firefox/firefox:6999): dconf-WARNING **: 17:39:50.542: Unable to open /var/lib/menu-xdg/dconf/profile/user: Permission denied
+JavaScript warning: https://sso.rajasthan.gov.in/signin, line 1: unreachable code after return statement
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+JavaScript warning: https://sso.rajasthan.gov.in/signin, line 1: unreachable code after return statement
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+1573042368570	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileXZCpza"
+1573042369119	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1573042369119	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1573042369119	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1573042369119	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1573042371195	Marionette	INFO	Listening on port 33199
+1573042371290	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+
+(/usr/lib/firefox/firefox:7503): dconf-WARNING **: 17:42:53.572: Unable to open /var/lib/menu-xdg/dconf/profile/user: Permission denied
+JavaScript warning: https://sso.rajasthan.gov.in/signin, line 1: unreachable code after return statement
+JavaScript warning: https://sso.rajasthan.gov.in/signin, line 1: unreachable code after return statement
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+1573042548738	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilex7kTSn"
+1573042549272	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1573042549273	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1573042549273	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1573042549273	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1573042551409	Marionette	INFO	Listening on port 40427
+1573042551457	Marionette	WARN	TLS certificate errors will be ignored for this session
+1573042552395	Marionette	INFO	Stopped listening on port 33199
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+1573042553821	Marionette	INFO	Stopped listening on port 45709
+
+(/usr/lib/firefox/firefox:8002): dconf-WARNING **: 17:45:53.999: Unable to open /var/lib/menu-xdg/dconf/profile/user: Permission denied
+JavaScript warning: https://sso.rajasthan.gov.in/signin, line 1: unreachable code after return statement
+JavaScript warning: https://sso.rajasthan.gov.in/signin, line 1: unreachable code after return statement
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+1573042726087	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevN9l1o"
+1573042726608	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1573042726608	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1573042726608	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1573042726609	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1573042728779	Marionette	INFO	Listening on port 33781
+1573042728800	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+
+(/usr/lib/firefox/firefox:8507): dconf-WARNING **: 17:48:51.117: Unable to open /var/lib/menu-xdg/dconf/profile/user: Permission denied
+1573042736207	Marionette	INFO	Stopped listening on port 40427
+JavaScript warning: https://sso.rajasthan.gov.in/signin, line 1: unreachable code after return statement
+JavaScript warning: https://sso.rajasthan.gov.in/signin, line 1: unreachable code after return statement
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+1573042803842	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWfqUJ3"
+1573042804394	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1573042804394	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1573042804395	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1573042804395	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1573042805667	Marionette	INFO	Stopped listening on port 33781
+1573042806511	Marionette	INFO	Listening on port 45347
+1573042806557	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+
+(/usr/lib/firefox/firefox:8992): dconf-WARNING **: 17:50:09.167: Unable to open /var/lib/menu-xdg/dconf/profile/user: Permission denied
+JavaScript warning: https://sso.rajasthan.gov.in/signin, line 1: unreachable code after return statement
+JavaScript warning: https://sso.rajasthan.gov.in/signin, line 1: unreachable code after return statement
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+1573042859462	Marionette	INFO	Stopped listening on port 45347
+1573042946113	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile6bqlq4"
+1573042946619	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1573042946619	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1573042946619	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1573042946619	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1573042948836	Marionette	INFO	Listening on port 36581
+1573042948927	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+
+(/usr/lib/firefox/firefox:9521): dconf-WARNING **: 17:52:31.431: Unable to open /var/lib/menu-xdg/dconf/profile/user: Permission denied
+JavaScript warning: https://sso.rajasthan.gov.in/signin, line 1: unreachable code after return statement
+JavaScript warning: https://sso.rajasthan.gov.in/signin, line 1: unreachable code after return statement
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+1573042996929	Marionette	INFO	Stopped listening on port 36581
+1573043039356	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile6mU603"
+1573043039865	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1573043039865	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1573043039865	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1573043039865	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1573043041890	Marionette	INFO	Listening on port 43049
+1573043041970	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+
+(/usr/lib/firefox/firefox:10008): dconf-WARNING **: 17:54:04.744: Unable to open /var/lib/menu-xdg/dconf/profile/user: Permission denied
+JavaScript warning: https://sso.rajasthan.gov.in/signin, line 1: unreachable code after return statement
+JavaScript warning: https://sso.rajasthan.gov.in/signin, line 1: unreachable code after return statement
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 10336, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-dMxUp2/firefox-70.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 9982, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-dMxUp2/firefox-70.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+1573043104528	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileumj0G6"
+1573043105077	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1573043105077	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1573043105078	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1573043105078	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1573043107233	Marionette	INFO	Listening on port 44565
+1573043107251	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+
+(/usr/lib/firefox/firefox:10479): dconf-WARNING **: 17:55:09.620: Unable to open /var/lib/menu-xdg/dconf/profile/user: Permission denied
+JavaScript warning: https://sso.rajasthan.gov.in/signin, line 1: unreachable code after return statement
+JavaScript warning: https://sso.rajasthan.gov.in/signin, line 1: unreachable code after return statement
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 10809, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-dMxUp2/firefox-70.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1573043175751	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile7DcsWG"
+1573043176342	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1573043176343	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1573043176343	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1573043176343	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1573043178666	Marionette	INFO	Listening on port 39135
+1573043178761	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+
+(/usr/lib/firefox/firefox:10956): dconf-WARNING **: 17:56:20.848: Unable to open /var/lib/menu-xdg/dconf/profile/user: Permission denied
+JavaScript warning: https://sso.rajasthan.gov.in/signin, line 1: unreachable code after return statement
+JavaScript warning: https://sso.rajasthan.gov.in/signin, line 1: unreachable code after return statement
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+1573043249920	Marionette	INFO	Stopped listening on port 39135
+1573043430587	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4NFA6t"
+1573043431090	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1573043431090	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1573043431090	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1573043431090	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1573043433250	Marionette	INFO	Listening on port 41049
+1573043433327	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+
+(/usr/lib/firefox/firefox:11453): dconf-WARNING **: 18:00:36.304: Unable to open /var/lib/menu-xdg/dconf/profile/user: Permission denied
+JavaScript warning: https://sso.rajasthan.gov.in/signin, line 1: unreachable code after return statement
+JavaScript warning: https://sso.rajasthan.gov.in/signin, line 1: unreachable code after return statement
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+1573043588130	Marionette	INFO	Stopped listening on port 41049
+1573043865705	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileupMRat"
+1573043866252	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1573043866252	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1573043866252	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1573043866253	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1573043868647	Marionette	INFO	Listening on port 37649
+1573043868717	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+
+(/usr/lib/firefox/firefox:12160): dconf-WARNING **: 18:07:51.685: Unable to open /var/lib/menu-xdg/dconf/profile/user: Permission denied
+JavaScript warning: https://sso.rajasthan.gov.in/signin, line 1: unreachable code after return statement
+JavaScript warning: https://sso.rajasthan.gov.in/signin, line 1: unreachable code after return statement
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+1573043918057	Marionette	INFO	Stopped listening on port 37649
+1573043989933	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileJ4qr5S"
+1573043990482	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1573043990482	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1573043990482	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1573043990483	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1573043992905	Marionette	INFO	Listening on port 35347
+1573043992947	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+
+(/usr/lib/firefox/firefox:12706): dconf-WARNING **: 18:09:55.529: Unable to open /var/lib/menu-xdg/dconf/profile/user: Permission denied
+JavaScript warning: https://sso.rajasthan.gov.in/signin, line 1: unreachable code after return statement
+JavaScript warning: https://sso.rajasthan.gov.in/signin, line 1: unreachable code after return statement
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+1573044029928	Marionette	INFO	Stopped listening on port 35347
+1573044068628	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileEvwzCs"
+1573044069192	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1573044069192	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1573044069192	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1573044069192	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1573044071653	Marionette	INFO	Listening on port 46487
+1573044071741	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1573044073788	Marionette	INFO	Stopped listening on port 46487
+1573044082780	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileoKlGaA"
+1573044083321	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1573044083321	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1573044083321	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1573044083321	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1573044085654	Marionette	INFO	Listening on port 46875
+1573044085693	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+
+(/usr/lib/firefox/firefox:13668): dconf-WARNING **: 18:11:28.119: Unable to open /var/lib/menu-xdg/dconf/profile/user: Permission denied
+JavaScript warning: https://sso.rajasthan.gov.in/signin, line 1: unreachable code after return statement
+JavaScript warning: https://sso.rajasthan.gov.in/signin, line 1: unreachable code after return statement
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+1573044135017	Marionette	INFO	Stopped listening on port 46875
