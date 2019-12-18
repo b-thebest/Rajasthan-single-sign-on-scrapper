@@ -35,6 +35,7 @@ for i in range(20):
     entry = []
     e0 = Label(master, text = int(i+1))
     e1 = Entry(master)
+    e1.insert(i, ' ')
 
     e2 = StringVar(master)
     e2.set('--select--')
@@ -49,7 +50,9 @@ for i in range(20):
     e4_entry = OptionMenu(master, e4, '--select--', "Passport", "Aadhar", "Driving Licence", "Voter ID", "PAN Card", "Office ID", "Student ID")
 
     e5 = Entry(master)
+    e5.insert(i, ' ')
     e6 = Entry(master)
+    e6.insert(i, 0)
     entry.append(e1)
     entry.append(e2)
     entry.append(e3)
@@ -72,6 +75,9 @@ data_readout.grid(column=6, row=21)
 
 
 def readData():
+#    for i in entries:
+#        for j in i:
+#            print(j.get())
     bot.runbot(entries)
 
 mainloop()

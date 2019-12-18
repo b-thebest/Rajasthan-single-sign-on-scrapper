@@ -146,7 +146,7 @@ def runbot(entries):
                 label = 'MemberTotalCamera' + str(j)
                 # element = WebDriverWait(browser, 10).until(EC.element_to_be_clickable((By.ID, label)))
                 element = browser.find_element_by_id(label)
-                element.send_keys(entries[j][4].get())
+                element.send_keys(entries[j][5].get())
                 element.send_keys(Keys.TAB)
                 time.sleep(2)
 
