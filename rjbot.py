@@ -13,15 +13,19 @@ s1 = pd.read_excel('person_details.xlsx', 'Sheet1')
 
 #Defining browser
 #browser = webdriver.Chrome(str(os.getcwd()) + "/chromedriver")
-browser = webdriver.Firefox()
+browser = webdriver.Firefox(executable_path='geckodriver')
 browser.get('https://sso.rajasthan.gov.in/signin')
 browser.implicitly_wait(15)
 
 i = 0
 
+#credentials
+username = 'DAILYTOUR360'
+password = 'DTT4SHALU'
+
 # First form --------
-browser.find_element_by_xpath('//*[@id="cpBody_txt_Data1"]').send_keys('DAILYTOUR360')
-browser.find_element_by_xpath('//*[@id="cpBody_txt_Data2"]').send_keys('DTT4SHALU')
+browser.find_element_by_xpath('//*[@id="cpBody_txt_Data1"]').send_keys(username)
+browser.find_element_by_xpath('//*[@id="cpBody_txt_Data2"]').send_keys(password)
 
 input('Press enter after solving captcha')
 '''//*[@id="bt_login"]/i'''
@@ -37,7 +41,7 @@ except:
 #element = WebDriverWait(browser, 10).until(EC.presence_of_element_located((By.ID, "cpBody_dlApplications_LinkButton2_0")))
 browser.implicitly_wait(10)
 try:
-    browser.find_element_by_xpath('//*[@id="cpBody_txt_Data2"]').send_keys('DTT4SHALU')
+    browser.find_element_by_xpath('//*[@id="cpBody_txt_Data2"]').send_keys(password)
     time.sleep(1)
     WebDriverWait(browser, 10).until(EC.element_to_be_clickable((By.ID, 'cpBody_cbx_newsession'))).click()
     browser.find_element_by_xpath('.//*[@id="cpBody_btn_LDAPLogin"]').click()

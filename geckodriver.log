@@ -1572,3 +1572,22 @@ JavaScript warning: https://sso.rajasthan.gov.in/signin, line 1: unreachable cod
 JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
 JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
 1573044135017	Marionette	INFO	Stopped listening on port 46875
+1573109992084	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileKpRO9O"
+1573109992613	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1573109992613	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1573109992614	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1573109992614	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1573109994898	Marionette	INFO	Listening on port 32901
+1573109994994	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+
+(/usr/lib/firefox/firefox:2492): dconf-WARNING **: 12:29:57.584: Unable to open /var/lib/menu-xdg/dconf/profile/user: Permission denied
+JavaScript warning: https://sso.rajasthan.gov.in/signin, line 1: unreachable code after return statement
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+JavaScript error: https://sso.rajasthan.gov.in/js/jquery-1.11.0.min.js, line 2: Error: Syntax error, unrecognized expression: unsupported pseudo: -webkit-autofill
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1573110048304	Marionette	INFO	Stopped listening on port 32901
