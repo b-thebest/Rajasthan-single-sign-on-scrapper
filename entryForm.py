@@ -75,9 +75,6 @@ data_readout.grid(column=6, row=21)
 
 
 def readData():
-#    for i in entries:
-#        for j in i:
-#            print(j.get())
     bot.runbot(entries)
 
 mainloop()

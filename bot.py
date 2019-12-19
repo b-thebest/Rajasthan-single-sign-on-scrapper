@@ -9,6 +9,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException
+from selenium.webdriver.common.action_chains import ActionChains
 import pandas as pd
 def runbot(entries):
 
@@ -101,53 +102,97 @@ def runbot(entries):
         numberOfMembers = len(entries)
         print("number of records to enter ", numberOfMembers)
         maxK = numberOfMembers
+        SHORT_TIMEOUT = 0.25
+        LONG_TIMEOUT = 0.25
+        LOADING_ELEMENT_XPATH = '//*[@id="xPath"]/xPath/To/The/Loading/Element'
         for j in range(numberOfMembers):
             if entries[j][2].get() != '--select--' and entries[j][2].get() != '--select--' and entries[j][3].get() != '--select--':
+                for i in range(6):
+                    print(entries[j][i].get())
+
                 browser.implicitly_wait(5)
                 # name
                 label = 'Member' + 'Name' + str(j)
-                print(label)
                 element = WebDriverWait(browser, 10).until(EC.element_to_be_clickable((By.ID, label)))
                 element.clear()
                 element.send_keys(entries[j][0].get())
                 element.send_keys(Keys.TAB)
                 time.sleep(0.25)
 
+                #blockUI blockMsg blockPage
+
                 # gender
                 label = 'Member' + 'Gender' + str(j)
                 element = WebDriverWait(browser, 10).until(EC.element_to_be_clickable((By.ID, label)))
-                element.send_keys(entries[j][1].get())
+                element.send_keys(str(entries[j][1].get()))
                 element.send_keys(Keys.TAB)
-                time.sleep(0.25)
+                #time.sleep(0.25)
 
                 # nationality
                 label = 'Member' + 'Nationality' + str(j)
                 element = WebDriverWait(browser, 10).until(EC.element_to_be_clickable((By.ID, label)))
-                element.send_keys(entries[j][2].get())
+                element.send_keys(str(entries[j][2].get()))
                 element.send_keys(Keys.TAB)
-                time.sleep(1)
+                try:
+                    #load_element = browser.find_element_by_class_name('blockUI.blockMsg.blockPage')[0]
+                    WebDriverWait(browser, SHORT_TIMEOUT
+                                  ).until(EC.presence_of_element_located((By.CLASS_NAME, 'blockUI.blockMsg.blockPage')))
+                    WebDriverWait(browser, LONG_TIMEOUT
+                                  ).until_not(EC.presence_of_element_located((By.CLASS_NAME, 'blockUI.blockMsg.blockPage')))
+                except TimeoutException:
+                    pass
+                #time.sleep(1)
 
                 # ID type
                 label = 'Member' + 'IdType' + str(j)
                 element = WebDriverWait(browser, 10).until(EC.element_to_be_clickable((By.ID, label)))
-                element.send_keys(entries[j][3].get())
+                hov0 = ActionChains(browser).move_to_element(element)
+                hov0.perform()
+                element.send_keys(str(entries[j][3].get()))
                 element.send_keys(Keys.TAB)
-                time.sleep(0.25)
+                try:
+                    #load_element = browser.find_element_by_class_name('blockUI.blockMsg.blockPage')[0]
+                    WebDriverWait(browser, SHORT_TIMEOUT
+                                  ).until(EC.presence_of_element_located((By.CLASS_NAME, 'blockUI.blockMsg.blockPage')))
+                    WebDriverWait(browser, LONG_TIMEOUT
+                                  ).until_not(EC.presence_of_element_located((By.CLASS_NAME, 'blockUI.blockMsg.blockPage')))
+                except TimeoutException:
+                    pass
+                #time.sleep(0.25)
 
                 # ID No,
                 label = 'Member' + 'IdNo' + str(j)
                 element = WebDriverWait(browser, 10).until(EC.element_to_be_clickable((By.ID, label)))
                 element.clear()
-                element.send_keys(entries[j][4].get())
+                element.send_keys(str(entries[j][4].get()))
                 element.send_keys(Keys.TAB)
-                time.sleep(1)
+                try:
+                    #load_element = browser.find_element_by_class_name('blockUI.blockMsg.blockPage')[0]
+                    WebDriverWait(browser, SHORT_TIMEOUT
+                                  ).until(EC.presence_of_element_located((By.CLASS_NAME, 'blockUI.blockMsg.blockPage')))
+                    WebDriverWait(browser, LONG_TIMEOUT
+                                  ).until_not(EC.presence_of_element_located((By.CLASS_NAME, 'blockUI.blockMsg.blockPage')))
+                except TimeoutException:
+                    pass
+                #time.sleep(1)
 
                 #  Video camera
                 label = 'MemberTotalCamera' + str(j)
                 # element = WebDriverWait(browser, 10).until(EC.element_to_be_clickable((By.ID, label)))
                 element = browser.find_element_by_id(label)
-                element.send_keys(entries[j][5].get())
+                hov = ActionChains(browser).move_to_element(element)
+                hov.perform()
+
+                element.send_keys(str(entries[j][5].get()))
                 element.send_keys(Keys.TAB)
+                try:
+                    #load_element = browser.find_element_by_class_name('blockUI.blockMsg.blockPage')[0]
+                    WebDriverWait(browser, SHORT_TIMEOUT
+                                  ).until(EC.presence_of_element_located((By.CLASS_NAME, 'blockUI.blockMsg.blockPage')))
+                    WebDriverWait(browser, LONG_TIMEOUT
+                                  ).until_not(EC.presence_of_element_located((By.CLASS_NAME, 'blockUI.blockMsg.blockPage')))
+                except TimeoutException:
+                    pass
                 time.sleep(2)
 
     while True:
