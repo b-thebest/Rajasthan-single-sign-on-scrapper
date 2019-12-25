@@ -12,8 +12,6 @@ from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.action_chains import ActionChains
 import pandas as pd
 def runbot(entries):
-
-
     import time
 
     #s1 = pd.read_excel('person_details.xlsx', 'Sheet1')
@@ -102,9 +100,15 @@ def runbot(entries):
         numberOfMembers = len(entries)
         print("number of records to enter ", numberOfMembers)
         maxK = numberOfMembers
-        SHORT_TIMEOUT = 0.25
-        LONG_TIMEOUT = 0.25
-        LOADING_ELEMENT_XPATH = '//*[@id="xPath"]/xPath/To/The/Loading/Element'
+        option_values = {
+            "Passport":'1',
+            "Aadhar":'2',
+            "Driving Licence":'3',
+            "Voter ID":'4',
+            "PAN Card":'5',
+            "Office ID":'6',
+            "Student ID":'7'
+        }
         for j in range(numberOfMembers):
             if entries[j][2].get() != '--select--' and entries[j][2].get() != '--select--' and entries[j][3].get() != '--select--':
                 for i in range(6):
@@ -114,7 +118,7 @@ def runbot(entries):
                 # name
                 label = 'Member' + 'Name' + str(j)
                 element = WebDriverWait(browser, 10).until(EC.element_to_be_clickable((By.ID, label)))
-                element.clear()
+                #element.clear()
                 element.send_keys(entries[j][0].get())
                 element.send_keys(Keys.TAB)
                 time.sleep(0.25)
@@ -126,55 +130,35 @@ def runbot(entries):
                 element = WebDriverWait(browser, 10).until(EC.element_to_be_clickable((By.ID, label)))
                 element.send_keys(str(entries[j][1].get()))
                 element.send_keys(Keys.TAB)
-                #time.sleep(0.25)
+                time.sleep(0.25)
 
                 # nationality
                 label = 'Member' + 'Nationality' + str(j)
                 element = WebDriverWait(browser, 10).until(EC.element_to_be_clickable((By.ID, label)))
                 element.send_keys(str(entries[j][2].get()))
                 element.send_keys(Keys.TAB)
-                try:
-                    #load_element = browser.find_element_by_class_name('blockUI.blockMsg.blockPage')[0]
-                    WebDriverWait(browser, SHORT_TIMEOUT
-                                  ).until(EC.presence_of_element_located((By.CLASS_NAME, 'blockUI.blockMsg.blockPage')))
-                    WebDriverWait(browser, LONG_TIMEOUT
-                                  ).until_not(EC.presence_of_element_located((By.CLASS_NAME, 'blockUI.blockMsg.blockPage')))
-                except TimeoutException:
-                    pass
-                #time.sleep(1)
+                time.sleep(1)
 
                 # ID type
                 label = 'Member' + 'IdType' + str(j)
                 element = WebDriverWait(browser, 10).until(EC.element_to_be_clickable((By.ID, label)))
                 hov0 = ActionChains(browser).move_to_element(element)
                 hov0.perform()
-                element.send_keys(str(entries[j][3].get()))
-                element.send_keys(Keys.TAB)
-                try:
-                    #load_element = browser.find_element_by_class_name('blockUI.blockMsg.blockPage')[0]
-                    WebDriverWait(browser, SHORT_TIMEOUT
-                                  ).until(EC.presence_of_element_located((By.CLASS_NAME, 'blockUI.blockMsg.blockPage')))
-                    WebDriverWait(browser, LONG_TIMEOUT
-                                  ).until_not(EC.presence_of_element_located((By.CLASS_NAME, 'blockUI.blockMsg.blockPage')))
-                except TimeoutException:
-                    pass
-                #time.sleep(0.25)
+                if str(entries[j][2].get()) == 'Foreigner':
+                    browser.find_element_by_xpath("//select[@id='" + label + "']/option[@value='1']").click()
+                else:
+                    browser.find_element_by_xpath("//select[@id='"+label+"']/option[@value='" + option_values[str(entries[j][3].get())] + "']").click()
+                #Select(browser.find_element_by_css_selector("select#" + label)).select_by_visible_text(str(entries[j][3].get())).click()
+                #element.send_keys(str(entries[j][3].get()))
+                #element.send_keys(Keys.TAB)
+                time.sleep(0.25)
 
                 # ID No,
                 label = 'Member' + 'IdNo' + str(j)
                 element = WebDriverWait(browser, 10).until(EC.element_to_be_clickable((By.ID, label)))
-                element.clear()
                 element.send_keys(str(entries[j][4].get()))
                 element.send_keys(Keys.TAB)
-                try:
-                    #load_element = browser.find_element_by_class_name('blockUI.blockMsg.blockPage')[0]
-                    WebDriverWait(browser, SHORT_TIMEOUT
-                                  ).until(EC.presence_of_element_located((By.CLASS_NAME, 'blockUI.blockMsg.blockPage')))
-                    WebDriverWait(browser, LONG_TIMEOUT
-                                  ).until_not(EC.presence_of_element_located((By.CLASS_NAME, 'blockUI.blockMsg.blockPage')))
-                except TimeoutException:
-                    pass
-                #time.sleep(1)
+                time.sleep(1)
 
                 #  Video camera
                 label = 'MemberTotalCamera' + str(j)
@@ -182,17 +166,8 @@ def runbot(entries):
                 element = browser.find_element_by_id(label)
                 hov = ActionChains(browser).move_to_element(element)
                 hov.perform()
-
                 element.send_keys(str(entries[j][5].get()))
                 element.send_keys(Keys.TAB)
-                try:
-                    #load_element = browser.find_element_by_class_name('blockUI.blockMsg.blockPage')[0]
-                    WebDriverWait(browser, SHORT_TIMEOUT
-                                  ).until(EC.presence_of_element_located((By.CLASS_NAME, 'blockUI.blockMsg.blockPage')))
-                    WebDriverWait(browser, LONG_TIMEOUT
-                                  ).until_not(EC.presence_of_element_located((By.CLASS_NAME, 'blockUI.blockMsg.blockPage')))
-                except TimeoutException:
-                    pass
                 time.sleep(2)
 
     while True:
